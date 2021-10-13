@@ -10,10 +10,7 @@
 
 <script>
 export default {
-  name: 'Socials',
-  props: {
-    msg: String
-  }
+  name: 'Socials'
 }
 </script>
 

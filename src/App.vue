@@ -1,26 +1,29 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Socials msg="Gabriel Dionne"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Socials from './components/Socials.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Socials
   }
 }
 </script>
 
 <style>
+body{
+  background-color: #696969;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: black;
   margin-top: 60px;
 }
+
 </style>

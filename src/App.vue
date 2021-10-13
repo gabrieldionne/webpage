@@ -1,22 +1,22 @@
 <template>
-  <Socials msg="Gabriel Dionne"/>
+  <About msg="Gabriel Dionne"/>
+  <Socials/>
 </template>
 
 <script>
 import Socials from './components/Socials.vue'
+import About from './components/About.vue'
 
 export default {
   name: 'App',
   components: {
+    About,
     Socials
   }
 }
 </script>
 
 <style>
-body{
-  background-color: #696969;
-}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

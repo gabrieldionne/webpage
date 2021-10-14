@@ -1,3 +1,5 @@
 module.exports = {
-    publicPath:'/https://github.com/gabrieldionne/webpage/'
+    publicPath: process.env.NODE_ENV === 'production'
+    ? '/webpage/'
+    : '/'
 }

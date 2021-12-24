@@ -1,11 +1,9 @@
 <template>
   <About msg="Gabriel Dionne"/>
-  <Socials/>
   <projects :projects="storedProjects"></projects>
 </template>
 
 <script>
-import Socials from './components/Socials.vue';
 import About from './components/About.vue';
 import Projects from './components/Projects.vue';
 
@@ -13,7 +11,6 @@ export default {
   name: 'App',
   components: {
     About,
-    Socials,
     Projects
   },
   data() {

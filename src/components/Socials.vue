@@ -1,8 +1,8 @@
 <template>
   <div class="socials">
-    <a href="https://ca.linkedin.com/in/gdionne"><img class="icons" id="linkedin_icon" src="../assets/linkedin.svg"></a>
-    <a href="mailto:gabdio02@hotmail.com"><img class="icons" id="github_icon" src="../assets/email.svg"></a>
-    <a href="https://github.com/gabrieldionne"><img class="icons" id="github_icon" src="../assets/github.svg"></a>
+    <a href="https://ca.linkedin.com/in/gdionne"><img class="icons" id="linkedin_icon" src="../assets/linkedin.svg" alt="Linkedin Gabriel Dionne"></a>
+    <a href="mailto:gabdio02@hotmail.com"><img class="icons" id="github_icon" src="../assets/email.svg" alt="E-mail Gabriel Dionne"></a>
+    <a href="https://github.com/gabrieldionne"><img class="icons" id="github_icon" src="../assets/github.svg" alt="GitHub Gabriel Dionne"></a>
     <!-- <br>
     <a href="../assets/GabrielDionne_CV.pdf"><img class="icons" id="resume_icon" src="../assets/resume.svg"></a> -->
   </div>

@@ -1,5 +1,6 @@
 <template>
     <li>
+      <router-link :to="'/webpage/' + title">
         <base-card>
             <header>
                 <h3> {{title}} </h3>
@@ -9,6 +10,7 @@
                 {{description}}
             </p>
         </base-card>
+      </router-link>
     </li>
 </template>
 

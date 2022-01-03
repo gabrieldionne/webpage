@@ -1,34 +1,12 @@
 <template>
-  <About msg="Gabriel Dionne"/>
-  <projects :projects="storedProjects"></projects>
+  <router-view></router-view>
 </template>
 
 <script>
-import About from './components/About.vue';
-import Projects from './components/Projects.vue';
 
 export default {
   name: 'App',
-  components: {
-    About,
-    Projects
-  },
-  data() {
-    return {
-      storedProjects: [
-        {
-          id: 'project1',
-          title: 'testproject1',
-          description: 'first project'
-        },
-        {
-          id: 'project2',
-          title: 'testproject2',
-          description: 'second project'
-        }
-      ]
-    }
-  }
+  
 }
 </script>
 

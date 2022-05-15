@@ -1,6 +1,6 @@
 <template>
     <h1>Gabriel Dionne</h1>
-    <p>I am computer science</p>
+    <p>University of New Brunswick Computer Science student.</p>
     <socials></socials>
     <projects :projects="storedProjects"></projects>
 </template>

@@ -1,7 +1,8 @@
 <template>
     <h1>Gabriel Dionne</h1>
-    <p>University of New Brunswick Computer Science student.</p>
+    <p>2nd year UNB Computer Science student.</p>
     <socials></socials>
+    <h2>Projects</h2>
     <projects :projects="storedProjects"></projects>
 </template>
 
@@ -19,13 +20,13 @@ export default {
       storedProjects: [
         {
           id: 'p1',
-          title: 'project1',
-          description: 'first project'
+          title: 'Instaclone',
+          description: 'A clone of Instagram made with the MEVN stack from scratch.'
         },
         {
           id: 'p2',
-          title: 'project2',
-          description: 'second project'
+          title: 'GPA Calculator',
+          description: 'A simple GPA calculator GUI made in JavaFX.'
         }
       ]
     }

@@ -35,6 +35,7 @@ header {
 h3 {
   font-size: 1.25rem;
   margin: 0.5rem 0;
+  text-align: center;
 }
 
 p {
@@ -43,11 +44,11 @@ p {
 
 a {
   text-decoration: none;
-  color: #ce5c00;
+  color: black;
 }
 
 a:hover,
 a:active {
-  color: #c89300;
+  color: grey;
 }
 </style>
